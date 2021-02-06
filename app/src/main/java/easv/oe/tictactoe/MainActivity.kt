@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btnCreate.setOnClickListener { v -> createBoard()}
+
+        btnCreate.setOnClickListener { _ -> createBoard()}
     }
 
     private fun createBoard() {
